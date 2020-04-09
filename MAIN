@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
     <TextView
         android:layout_width="wrap_content"
@@ -16,9 +17,10 @@
         android:textColor="#000000"
         android:text="0"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="322dp">
+        tools:layout_editor_absoluteY="322dp"/>
     <Button
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="ORDER">
+         android:text="ORDER"
+        android:onClick="submitOrder"/>
         </LinearLayout>
